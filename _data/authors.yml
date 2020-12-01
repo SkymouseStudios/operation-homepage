@@ -11,13 +11,4 @@ profiles:
       desc: "Hi, I'm the other co-founder of Skymouse Studios. I enjoy making people laugh. 
           I'm a huge fan of design and illustration. If it's late at night, I'm probably sleeping or writing a TV show."
       img: "/library/images/profile/patricks-profile-s.jpg"
-    - name: "Austin Graf"
-      title: "Content Manager"
-      desc: "Hi, I'm a writer and content manager at Skymouse. I've worked a ton of different jobs.
-          I'm living out my dream of starting a local flower farm in Middle Tennessee."
-      img: "/library/images/profile/austins-profile-s.jpg"
-    - name: "Rochelle Alves"
-      title: "Copywriter"
-      desc: "Shopping mall Easter Bunny...to college then corporate...to storyteller and copywriter (team Oxford comma). Someday I'll write about the Easter Bunny gig."
-      img: "/library/images/profile/Rochelle_photo.png"
----
+--- 

@@ -89,6 +89,7 @@ Stylesheet: Button Styles
 .nav-btn {
   @extend %btn;
   margin: 0px;
+  color: var(--main-highground-color);
 }
 
 .nav-btn-dark {

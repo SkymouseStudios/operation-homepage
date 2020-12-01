@@ -134,7 +134,7 @@ HEADER STYLES
 .top-banner {
 	display: block;
 	background-color: var(--main-highlight-color);
-	color: white !important;
+	color: var(--main-highground-color);
 	text-align: center;
 	padding: 10px 0;
 }
@@ -174,22 +174,28 @@ header {
 	position: relative;
 	text-align: center;
 	overflow: hidden;
-	background-color: $lblue;
+	background-color: var(--alt-highlight-color);
+	color: var(--main-highground-color);
 
 	.content {
 		max-width: 585px;
 		margin: 0 auto;
 		padding: 0 20px;
+		color: var(--main-highground-color);
 	}
 
 	h1 {
 		line-height: 1.2em;
 		font-size: 5em;
 		margin: 0 auto;
+		color: var(--main-highground-color);
 	}
 
 	p {
 		margin: 0px auto;
+		margin-top: 20px;
+		color: var(--main-highground-color);
+		max-width: 500px
 	}
 }
 
@@ -201,6 +207,7 @@ header {
 	margin-top: -50px;
 
 	p {
+		font-weight: bold;
 		border-radius: $radius-sm;
 		padding: 20px 0px;
 		background-color: var(--main-highground-color);
@@ -336,7 +343,7 @@ NAVIGATION STYLES
 }
 
 .logo-words {
-	color: var(--main-bg-color);
+	color: var(--main-highground-color);
 }
 
 /*********************
@@ -350,6 +357,11 @@ SECTIONS
 
 .section-full-width {
 	padding: 0px;
+}
+
+.section-focused {
+	margin: 100px auto;
+	max-width: 500px;
 }
 
 section {

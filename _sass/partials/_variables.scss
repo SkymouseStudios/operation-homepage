@@ -23,9 +23,9 @@ Light and Dark Modes
 	    --main-text-color: #2A3035;       // Space
 	    --main-bg-color: #ffffff; 		  // White
 	    --main-midground-color: #EEEEEE;  // Light Gray
-	    --main-highground-color: #F7F7F1; // Yellow Gray
-	    --main-highlight-color: #5c9ead;  // Orange
-	    --alt-highlight-color: #70C1DB;
+	    --main-highground-color: #FEF7BE; // LEMON
+	    --main-highlight-color: #EB5967;  // RASPBERRY
+	    --alt-highlight-color: #22205F;	  // BLACK BERRY
 	    --main-text-light-color: #ffffff; // Text color for dark backgrounds
 	}
 }
@@ -37,7 +37,8 @@ Light and Dark Modes
 	    --main-midground-color: #434d5a;   // Midnight
 	    --main-highlight-color: #5c9ead;   // DBlue
 	    --main-text-light-color: #5C6C80;  // NEW! Blue Gray
-	    --main-highground-color: #525F70;
+	    --main-highground-color: #525F70
+	    --alt-highlight-color: #22205F;	  // BLACK BERRY
 	}
 }
 
@@ -80,4 +81,3 @@ $light-gray:        #f8f9fa;
 $radius:			10px;
 $radius-sm:			5px;
 $shadow: 			-25.1px 32.5px 75px -25px rgba(30, 30, 63, 0.31), -16.2px 37.5px 35px -27.5px rgba(0, 0, 0, 0.21);
-

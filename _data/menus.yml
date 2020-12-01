@@ -2,10 +2,6 @@
 header:
   - title: "Pricing"
     url: "/pricing"
-  - title: "Podcast"
-    url: "/humans-of-linkedin"
-  - title: "Blog"
-    url: "/blog/"
   - title: "Contact"
     url: "/contact"
 
@@ -13,20 +9,8 @@ header:
 footer:
   - title: Company
     subfolderitems:
-      - title: "About"
-        url: "/about"
       - title: "Our Work"
         url: "/work"
-      # - title: "Brand Guide"
-      #   url: "/brand-guide"
-  # - title: Services
-  #   subfolderitems:
-  #     - title: "Why Skymouse"
-  #       url: "/why-skymouse"
-  #     - title: "What you can do"
-  #       url: "/what-you-can-do"
-  #     # - title: "Process"
-  #     #   url: "/process"
       - title: "Pricing"
         url: "/pricing"
       - title: "Contact"
@@ -41,15 +25,11 @@ footer:
         url: "/humans-of-linkedin"
       - title: "Downloads"
         url: "/downloads"
-  # - title: Extras
-  #   subfolderitems:
-  #     - title: "Store"
-  #       url: "/#"
 
 # Links to Social Media
 socials:
   - name: "Visit Our Website"
-    url: "https://skymousestudios.com"
+    url: "https://OperationHomepage.com"
     icon: ⛰
   - name: "Free Marketing Guides"
     url: "https://skymousestudios.com/blog"
