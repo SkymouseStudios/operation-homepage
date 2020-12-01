@@ -1,0 +1,67 @@
+{% include header.html %}
+{% include nav.html %}
+
+<main id="post" class="blog-page">
+    
+  <section class="blank">
+    <div class="tag">{{ page.subtitle }}</div>
+    <h1>{{ page.title }}</h1>
+    
+    <div class="post-info-wrapper cf">
+
+    {% for profile in site.data.authors.profiles %}
+      {% if profile.name == page.author %}
+        <p>By {{ profile.name }} on {{ page.date | date: "%B %-d, %Y" }}</p>
+      {% endif %}
+    {% endfor %}
+
+    {% if page.ttr %}
+      <div class="time-to-read">{{ page.ttr }} Minutes of Quality Reading 👌</div>
+    {% endif %}
+    
+    </div>
+  </section>
+
+  <div class="blog-header">
+     <img class="blog-image" src="{{ page.img }}" alt="">
+  </div>
+
+  <section class="hentry blank">
+    {{ content }}
+
+    <a href="/blog/">Back to the blog</a>
+  </section>
+
+{% for profile in site.data.authors.profiles %}
+  {% if profile.name == page.author %}
+    <section class="blank grid-four">
+
+      <div class="author-section">
+         <img src="{{ profile.img }}" alt="Photo of {{ profile.name }}">
+        <div>
+          <h3>{{ profile.name }}</h3>
+          <p>{{ profile.desc}}</p>
+        </div>
+      </div>
+
+    </section>
+  {% endif %}
+{% endfor %}
+
+<div class="pad"></div>
+
+  <section class="block card">
+    <div class="pad-content">
+      <h3>Free marketing guides, just like this.</h3>
+      
+      <div style="max-width: 400px; margin: 0 auto;">
+        {% include mailchimp-blog.html %}
+      </div>
+      
+    </div>
+  </section>
+
+  
+</div>
+
+{% include footer.html %}

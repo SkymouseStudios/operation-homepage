@@ -1,0 +1,77 @@
+/******************************************************************
+1030px and up - Desktop Stylsheet
+******************************************************************/
+ 
+:root {
+     --site-width: 1000px;
+}
+
+/*****************/
+/* LAYOUT Styles */
+/******************/
+
+
+/*****************/
+/* HEADER */
+/******************/
+
+#scene {
+	top: -100px;
+	width: 140%;
+	left:calc(50% - 75%);
+}
+
+.hero {
+	padding-top: 200px;
+}
+
+/*********************
+TEMPLATE OBJECTS
+*********************/
+
+
+#menu-burger, {
+	display: none;
+}
+
+#inner-header nav {
+	
+	&#desktop-menu {
+		display: block;
+
+		ul {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+		}
+
+		ul li:last-child {
+			float: right;
+		}
+	}
+
+	&#mobile-menu {
+		display: none;
+	}
+}
+
+img.client-site {
+	right: 110px;
+}
+
+.quote {
+	font-size: 2.3em;
+	line-height: 1.5em;
+	margin-top: 0em;
+	padding-right: 20px;
+}
+
+.footer-links {
+	p:first-child {
+		float: left;
+	}
+
+	p:last-child {
+		float: right;
+	}
+}

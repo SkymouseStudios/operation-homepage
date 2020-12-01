@@ -1,0 +1,33 @@
+# Site settings
+title: "Operation Homepage"
+description: "Make your homepage beautiful and clean"
+url: "https://OperationHompage.com"
+cover: "/library/cover.png"
+logo: "/library/images/logos/skymse-logo-circle.png"
+username: "@OperationHompage"
+email: "sos@OperationHompage.com"
+location: "Indianapolis, IN • Chattanooga, TN"
+color: "#F99C1C"
+
+# sass/css minify
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-menus
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+collections:
+  services:
+    output: true
+    permalink: /:collection/:name
+  casestudies:
+    output: true
+    permalink: /work/:name
+  pages:
+    output: true
+    permalink: /:name
+  downloads:
+    output: true
+    permalink: /downloads/:name

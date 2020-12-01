@@ -1,0 +1,65 @@
+# Header Navigation
+header:
+  - title: "Pricing"
+    url: "/pricing"
+  - title: "Podcast"
+    url: "/humans-of-linkedin"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Contact"
+    url: "/contact"
+
+# Footer Navigation
+footer:
+  - title: Company
+    subfolderitems:
+      - title: "About"
+        url: "/about"
+      - title: "Our Work"
+        url: "/work"
+      # - title: "Brand Guide"
+      #   url: "/brand-guide"
+  # - title: Services
+  #   subfolderitems:
+  #     - title: "Why Skymouse"
+  #       url: "/why-skymouse"
+  #     - title: "What you can do"
+  #       url: "/what-you-can-do"
+  #     # - title: "Process"
+  #     #   url: "/process"
+      - title: "Pricing"
+        url: "/pricing"
+      - title: "Contact"
+        url: "/contact"
+  - title: Resources
+    subfolderitems:
+      - title: "Blog"
+        url: "/blog"
+      - title: "Marketing Courses"
+        url: "/lab"
+      - title: "VidCast"
+        url: "/humans-of-linkedin"
+      - title: "Downloads"
+        url: "/downloads"
+  # - title: Extras
+  #   subfolderitems:
+  #     - title: "Store"
+  #       url: "/#"
+
+# Links to Social Media
+socials:
+  - name: "Visit Our Website"
+    url: "https://skymousestudios.com"
+    icon: ⛰
+  - name: "Free Marketing Guides"
+    url: "https://skymousestudios.com/blog"
+    icon: <i class="twitter-icon fa fa-book"></i>
+  - name: "Instagram"
+    url: "https://www.instagram.com/SkymouseStudios/"
+    icon: <i class="twitter-icon fa fa-instagram"></i>
+  - name: "Linkedin"
+    url: "https://www.linkedin.com/company/skymouse-studios"
+    icon: <i class="twitter-icon fa fa-linkedin"></i>
+  - name: "Facebook"
+    url: "https://www.facebook.com/Skymouse-Studios-1667422846889253"
+    icon: <i class="twitter-icon fa fa-facebook"></i>

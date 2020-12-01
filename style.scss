@@ -1,0 +1,58 @@
+---
+---
+
+// normalize: http://necolas.github.io/normalize.css/
+@import "partials/normalize";
+@import "partials/variables";
+@import "partials/typography";
+@import "partials/functions";
+@import "partials/grid";
+@import "partials/nav";
+
+/*********************
+IMPORTING MODULES
+*********************/
+
+@import "modules/buttons";
+@import "modules/forms";
+@import "modules/animations";
+@import "modules/hotspots";
+@import "modules/page-guides";
+
+/*********************
+BASE (MOBILE) SIZE
+*********************/
+
+@import "breakpoints/base";
+
+/*********************
+TABLET & SMALLER LAPTOPS
+*********************/
+@media only screen and (min-width: 768px) {
+	// styles in 768up.scss
+	@import "breakpoints/768up";
+}   // end of media query
+
+/*********************
+DESKTOP
+*********************/
+@media only screen and (min-width: 1030px) {
+	// styles in 1030up.scss
+	@import "breakpoints/1030up";
+}   // end of media query
+
+/*********************
+LARGE VIEWING SIZE
+*********************/
+@media only screen and (min-width: 1240px) {
+	// styles in 1240up.scss
+	@import "breakpoints/1240up";
+} // end of media query
+
+/*********************
+PRINT STYLESHEET
+*********************/
+@media print {
+	// styles in print.scss
+	@import "partials/print";
+}

@@ -1,0 +1,189 @@
+/******************************************************************
+768px and up
+******************************************************************/
+ 
+:root {
+     --site-width: 700px;
+     --columnCountMax: 4;
+}
+
+.m-hide {
+	display: inline-block;
+}
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.top-logo {
+	margin: 0 auto;
+	text-align: center;
+	width: 100px;
+}
+
+/*********************
+HEADER STYLES
+*********************/
+
+.hero {
+	padding-top: 150px;
+}
+
+.hero-features {
+	grid-gap: 20px;
+}
+
+#scene {
+	top: -100px;
+	width: 1800px;
+	left: calc(50% - 950px);
+
+	img {
+		width: 105%;
+	}
+
+	#headerFront {
+		width: 105%;
+		margin: auto;
+	}
+
+	#headerMid {
+		width: 105%;
+		margin: auto;
+	}
+
+	#headerBack {
+ 		width: 105%;
+ 		margin: auto;
+	}
+
+	&::before {
+		display: none;
+	}
+}
+
+#scene .scene-home {
+	margin: 0;
+}
+
+.panel-content {
+	max-width: 420px;
+}
+
+.section-back::after {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+#inner-header nav {
+	border: 0;
+
+	ul {
+		
+		li {
+			display: inline-block;
+			margin: 0px 15px;
+		} /* end ul li */ 
+	} 
+	
+} /* end .nav */
+
+/*********************
+TEMPLATE OBJECTS
+*********************/
+
+.blog-thumb {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.blog-grid a {
+    grid-column: 2;
+  }
+
+.section-default {
+	margin: 50px auto;
+}
+
+.section-full-width {
+	margin: 0px;
+}
+
+.card-center {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.grid-half:nth-child(odd) {
+	.content {
+	 	grid-column: 1;
+		grid-row: 1;
+	 }
+
+	.client-site {
+		grid-column: 2;
+		grid-row: 1;
+
+		.dot {
+    		left: 17px;
+    		top: -41px;
+		}
+	}
+}
+
+.mobile-and-desktop {
+	img:first-child {
+		left: -50px;
+	}
+}
+
+.process .card {
+	position: absolute;
+	top: 220px;
+	left: 0px;
+	right: 0px;
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+.blog-feed {
+	margin: 0px auto;
+}
+
+.blog-header {
+	margin: 30px -10%;
+    width: 120%;
+}
+
+.blog-page {
+	width: 700px;
+
+	.blog-screenshot {
+		width: 120%;
+		margin-left: -10%;
+	}
+
+	.blog-image-full {
+		box-shadow: none;
+		width: 100%;
+	}
+
+	.blog-image-mid{
+		
+	}
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+
+footer #inner-footer #logo {
+	grid-column: span 2;
+}
