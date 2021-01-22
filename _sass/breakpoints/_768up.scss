@@ -33,6 +33,20 @@ HEADER STYLES
 	grid-gap: 20px;
 }
 
+.hero h1 {
+	font-size: 4em;
+}
+
+.hero-content {
+	top: 300px;
+}
+
+#HeaderVideo {
+	width: 120%;
+	left: -100px;
+	right: auto;
+}
+
 #scene {
 	top: -100px;
 	width: 1800px;

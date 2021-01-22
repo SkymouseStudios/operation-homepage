@@ -42,16 +42,24 @@ a {
 	color: var(--main-highlight-color);
 	border-bottom: 0px solid var(--main-highlight-color);
 	transition: 0.5s;
+
 }
 
 .default-link {
-	color: var(--main-text-color);
+	color: var(--main-highlight-color);
 	border-bottom: 3px solid var(--main-midground-color);
 	padding: 5px;
+	cursor: pointer;
 
 	&:hover {
-		border-bottom: 3px solid  var(--main-text-light-color);
+		color: var(--main-highlight-color);
+		border-bottom: 3px solid  var(--main-highlight-color);
 	}
+}
+
+.blank-link {
+	text-decoration: none;
+	color: var(--main-highground-color);
 }
 
 img {
@@ -169,8 +177,7 @@ header {
 }
 
 .hero {
-	padding-top: 150px;
-	padding-bottom: 200px;
+	height: 700px;
 	position: relative;
 	text-align: center;
 	overflow: hidden;
@@ -186,7 +193,7 @@ header {
 
 	h1 {
 		line-height: 1.2em;
-		font-size: 5em;
+		font-size: 2em;
 		margin: 0 auto;
 		color: var(--main-highground-color);
 	}
@@ -199,12 +206,31 @@ header {
 	}
 }
 
+.hero-content {
+	position: absolute;
+	top: 400px;
+	left: 10px;
+	right: 10px;
+	z-index: 10;
+	text-align: center;
+}
+
+#HeaderVideo {
+	width: 190%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 5;
+}
+
 .hero-features {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	text-align: center;
 	padding: 10px;
 	margin-top: -50px;
+	z-index: 10;
+	position: relative;
 
 	p {
 		font-weight: bold;
@@ -344,6 +370,8 @@ NAVIGATION STYLES
 
 .logo-words {
 	color: var(--main-highground-color);
+	display: block;
+	width: 300px;
 }
 
 /*********************
@@ -362,6 +390,11 @@ SECTIONS
 .section-focused {
 	margin: 100px auto;
 	max-width: 500px;
+}
+
+.section-extra-padding {
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 section {
@@ -861,6 +894,13 @@ MODULES
 		background-clip: content-box, border-box;
 	}
 
+	&--review {
+		padding: 20px;
+		align-content: middle;
+		border: 1px solid var(--main-text-color);
+		box-shadow: none;
+	}
+
 	h4 { 
 		padding: 0px 20px;
 	}
@@ -905,7 +945,7 @@ FOOTER STYLES
 
 footer {
 	margin: 20px;
-	z-index: 999;
+	z-index: 100;
 	position: relative;
 	display: block;	
 }
@@ -959,4 +999,48 @@ footer {
     	list-style-type: none;
 		display: inline-block;
 	}
+}
+
+// Example popup
+.modal {
+	position: fixed;
+	padding: 100px 20px;
+	background-color: var(--alt-highlight-color);
+	z-index: 999;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+
+	transition: 1s;
+	opacity: 0;
+
+	height: 100vh;
+	overflow: scroll;
+
+	display: none;
+}
+
+.popup-header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	background-color: var(--main-highground-color);
+}
+
+.popup-show {
+	display: block;
+	transition: 1s;
+	opacity: 100;
+}
+
+.popup-image {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.close {
+	cursor: pointer;
+	padding: 20px;
 }

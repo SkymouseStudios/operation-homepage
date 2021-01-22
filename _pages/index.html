@@ -1,21 +1,64 @@
 ---
-title: Redo your homepage and make it awesome
+title: Get noticed with a one-page website
 layout: default
-subtitle: Effortless Small Business Marketing
-description: Operation Homepage helps you make an awesome homepage
-img-back: "/library/images/headers/home-_scene-talk-the-galaxy.svg"
-img: "/library/images/social/social-home.jpg"
-
+subtitle: "It's never been easier to look like a pro"
+description: Operation Homepage is a product of Skymouse Studios. We help small businesses get noticed with better websites.
+img: "/library/images/operation-homepage/operation-homepage-get-noticed.png"
+keyword: "one page website"
 ---
 
-<div class="hero">
+<!-- Pop-up Example -->
+<div id="modalOne" class="modal">
+	<div class="popup-header">
+		<h2 class="popup-title">Simple Page Example</h2>
+		<a class="close">X Close</a>
+	</div>
 	
-	<h1>Make your homepage <br> great again.</h1>
-	<p class="big-text">For the price of 214 Mocha Lattes, you too can have a homepage you're proud of.</p>
+	<div class="popup-content">
+		<img class="popup-image" src="/library/images/our-work/cutter-consulting/elite-page-example.webp" alt="">
+	</div>
+</div>
+<!-- END Pop-up Example -->
 
+<!-- Pop-up Example -->
+<div id="modalTwo" class="modal">
+	<div class="popup-header">
+		<h2 class="popup-title">Elite Page Example</h2>
+		<a class="close">X Close</a>
+	</div>
+	
+	<div class="popup-content">
+		<img class="popup-image" src="/library/images/our-work/cutter-consulting/elite-page-example.webp" alt="">
+	</div>
+</div>
+<!-- END Pop-up Example -->
+
+<!-- Pop-up Example -->
+<div id="modalThree" class="modal">
+	<div class="popup-header">
+		<h2 class="popup-title">Unbelievable Page Example</h2>
+		<a class="close">X Close</a>
+	</div>
+	
+	<div class="popup-content">
+		<img class="popup-image" src="/library/images/our-work/cutter-consulting/elite-page-example.webp" alt="">
+	</div>
+</div>
+<!-- END Pop-up Example -->
+
+<div class="hero">
+
+	<div class="hero-content">
+		<h1>Get noticed with a <br>one-page website</h1>
+		<p class="big-text">For the price of 214 mocha lattes, you too can have an awesome homepage.</p>	
+	</div>
+	
+	<video autoplay muted loop id="HeaderVideo">
+  		<source src="/library/animation/helicopter-full-screen-right-v2.webm" type="video/mp4">
+	</video>
 </div>
 
-<div class="hero-features section-default">
+<div class="hero-features">
 	<p>Create great homepages</p>
 	<p>Engage your visitors</p>
 	<p>Help more humans</p>
@@ -130,8 +173,6 @@ img: "/library/images/social/social-home.jpg"
 			</div>
 		</div>
 	</section>
-
-	{% include section-features.html %}
 	
 	{% include section-process.html %}
 
@@ -148,13 +189,13 @@ img: "/library/images/social/social-home.jpg"
 		</div>
 	</section>
 
-	<div class="pad section-heading">
-		<a href="/pricing/" class="action-btn">View Pricing</a>
-	</div>
+	{% include section-tiers.html %}
+	
+	{% include section-reviews.html %}
 	
 	<section class="section-focused panel-blank">
 
-		<div class="">
+		<div class="m-pad">
 			<h2>Monday tips from John</h2>
 			<p class="">Every Monday (unless he forgets to send it) John sends out an email to all our lovely customers and followers. You're free to join the club.</p>
 
@@ -167,7 +208,7 @@ img: "/library/images/social/social-home.jpg"
 		
 		<div style="align-self: center">
 			<h2>We love you. Because we can.</h2>
-			<p class="big-text">Operation homepage is run by Patrick and John,<br> your loyal team and new best friends.</p>
+			<p class="big-text">Operation homepage is run by Patrick and John,<br class="m-hide"> your loyal team and new best friends.</p>
 		</div>
 		
 		<div class="homepage-profile">
@@ -178,17 +219,3 @@ img: "/library/images/social/social-home.jpg"
 	</section>
 	
 </main>
-
-<!-- <div class="site-background-mask">
-	<div class="site-background">
-		<div class="guide-container">
-			<div class="guide-grid">
-				<div class="guide"></div>
-				<div class="guide"></div>
-				<div class="guide"></div>
-				<div class="guide"></div>
-				<div class="guide"></div>
-			</div>
-		</div>
-	</div>
-</div> -->

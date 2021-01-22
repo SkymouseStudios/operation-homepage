@@ -182,8 +182,8 @@ ul.list {
   border-radius: 3px;
   display: inline-block;
   padding: 0.2em 0.5em;
-  color: var(--main-text-light-color);
-  border: 1px solid var(--main-text-light-color);
+  color: var(--main-text-color);
+  border: 1px solid var(--main-text-color);
 }
 
 .tag-bright {
@@ -218,5 +218,5 @@ ul.list {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important
 }

@@ -3,10 +3,16 @@
 				<div id="inner-footer" class="cf">
 
 					<nav class="grid-four">
-						<a id="logo" href="{{ site.url }}/" rel="nofollow">
-							<!-- <img alt="Skymouse Studios Logo" src="{{ site.url }}/library/images/logos/skymouse-logo.svg"> -->
-							<span class=""><strong>Operation</strong><span style="font-weight: 100;">Homepage</span></span>
-						</a>
+						<div id="logo" rel="nofollow">
+							<span class="logo-words">
+								<a href="{{ site.url }}/">
+									<strong>Operation</strong>
+									<span style="font-weight: 100;">Homepage</span>
+								</a>
+								<a style="display: block; font-size: 16px" href="https://SkymouseStudios.com">
+								by Skymouse Studios</a>
+							</span>
+						</div>
 
 						{% for item in site.data.menus.footer %}
 							<div>
@@ -24,7 +30,7 @@
 				</div><!-- END Inner Footer -->
 
 				<div class="footer-links cf">
-					<p>&copy; 2020&nbsp;{{ site.title }}&nbsp;&nbsp;<a rel="nofollow" title="Privacy" href="{{ site.url }}/privacy/">Privacy</a></p>
+					<p>&copy; 2020&nbsp;Skymouse Studios&nbsp;&nbsp;<a rel="nofollow" title="Privacy" href="{{ site.url }}/privacy/">Privacy</a></p>
 					
 					<p class="location">{{ site.location }}</p>
 				</div>

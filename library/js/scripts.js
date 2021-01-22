@@ -3,6 +3,10 @@
  * Author: Patrick Hanus
  */
 
+/************************************************************
+ * Drift OPEN CHAT
+ ************************************************************/
+
 (function() {
   
   var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
@@ -44,14 +48,34 @@
  * Mobile Menu Function
  ************************************************************/
 
-function mobileMenu() {
-  	document.getElementById('menu-burger').addEventListener('click',function() {
-    document.getElementById('mobile-menu').classList.toggle('menu-shown');
-    document.getElementById('line').classList.toggle('exit');
-	});
-}
+// function mobileMenu() {
+//   	document.getElementById('menu-burger').addEventListener('click',function() {
+//     document.getElementById('mobile-menu').classList.toggle('menu-shown');
+//     document.getElementById('line').classList.toggle('exit');
+// 	});
+// }
 
-mobileMenu();
+// mobileMenu();
+
+/************************************************************
+ * EXAMPLE POPUP
+ ************************************************************/
+
+$(".button").on("click", function() {
+  var modal = $(this).data("modal");
+  $(modal).addClass( "popup-show" );
+});
+
+$(".modal").on("click", function(e) {
+  var className = e.target.className;
+  if(className === "modal" || className === "close"){
+    $(this).closest(".modal").removeClass( "popup-show" );
+  }
+});
+
+/************************************************************
+ * SMOOTH SCROLL
+ ************************************************************/
 
 // Select all links with hashes
 jQuery('a[href*="#"]')

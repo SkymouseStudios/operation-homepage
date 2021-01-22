@@ -1,30 +1,30 @@
 # Header Navigation
-header:
-  - title: "Pricing"
-    url: "/pricing"
-  - title: "Contact"
-    url: "/contact"
+# header:
+#   - title: "Pricing"
+#     url: "/pricing"
+#   - title: "Contact"
+#     url: "/contact"
 
 # Footer Navigation
 footer:
-  - title: Company
-    subfolderitems:
-      - title: "Our Work"
-        url: "/work"
-      - title: "Pricing"
-        url: "/pricing"
-      - title: "Contact"
-        url: "/contact"
+  # - title: Company
+  #   subfolderitems:
+  #     - title: "Our Work"
+  #       url: "/work"
+  #     - title: "Pricing"
+  #       url: "/pricing"
+  #     - title: "Contact"
+  #       url: "/contact"
   - title: Resources
     subfolderitems:
       - title: "Blog"
-        url: "/blog"
+        url: "https://skymousestudios.com/blog"
       - title: "Marketing Courses"
-        url: "/lab"
+        url: "https://skymousestudios.com/lab"
       - title: "VidCast"
-        url: "/humans-of-linkedin"
+        url: "https://skymousestudios.com/humans-of-linkedin"
       - title: "Downloads"
-        url: "/downloads"
+        url: "https://skymousestudios.com/downloads"
 
 # Links to Social Media
 socials:

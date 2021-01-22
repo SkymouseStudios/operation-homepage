@@ -152,7 +152,7 @@ form#searchbar #searchbar-submit {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    color: #343434;
+    color: var(--main-text-color);
     background-color: var(--main-midground-color);
     box-sizing: border-box;
     height: 32px;
@@ -169,7 +169,7 @@ form#searchbar #searchbar-submit {
     display: block;
     font-size: 14px;
     text-align: left;
-    color: var(--main-text-light-color);
+    color: var(--main-text-color);
 }
 
 #mc_embed_signup .clear {

@@ -21,8 +21,18 @@
 	left:calc(50% - 75%);
 }
 
-.hero {
-	padding-top: 200px;
+.hero h1 {
+	font-size: 5em;
+}
+
+.hero-content {
+	top: 250px;
+}
+
+#HeaderVideo {
+	width: 100%;
+	left: 0px;
+	top: -100px;
 }
 
 /*********************
