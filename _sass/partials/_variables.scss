@@ -12,6 +12,12 @@ No one likes a mess.
 Light and Dark Modes
 ******************************************************************/
 
+$lemon:				#FEF7BE;
+$raspberry:			#EB5967;
+$blackberry:		#22205F;
+$blackberry-high:	lighten( $blackberry, 10% );
+$blackberry-low:	darken( $blackberry, 10% );
+
 :root {
     color-scheme: light dark;
      --site-width: auto;
@@ -19,33 +25,62 @@ Light and Dark Modes
 }
 
 @media (prefers-color-scheme: light) {
-	:root {
-	    --main-text-color: #2A3035;       // Space
-	    --main-bg-color: #ffffff; 		  // White
-	    --main-midground-color: #EEEEEE;  // Light Gray
-	    --main-highground-color: #FEF7BE; // LEMON
-	    --main-highlight-color: #EB5967;  // RASPBERRY
-	    --alt-highlight-color: #22205F;	  // BLACK BERRY
-	    --main-text-light-color: #ffffff; // Text color for dark backgrounds
-	}
+
+	// body {
+	//     --main-text-color:        #2A3035;
+	// 	--main-bg-color:          #f3f3f3;
+	// 	--main-midground-color:   #{$blackberry-low};
+	// 	--main-highground-color:  #{$lemon};
+	// 	--main-highlight-color:   #{$raspberry};
+	// 	--alt-highlight-color:    #{$blackberry-high}; 
+	// 	--main-text-light-color:  #{$lemon};
+	//   }
+
+	
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-	    --main-text-color: #ffffff; 	   // White
-	    --main-bg-color: #2A3035;          // Space
-	    --main-midground-color: #434d5a;   // Midnight
-	    --main-highlight-color: #5c9ead;   // DBlue
-	    --main-text-light-color: #5C6C80;  // NEW! Blue Gray
-	    --main-highground-color: #525F70
-	    --alt-highlight-color: #22205F;	  // BLACK BERRY
-	}
+  /* defaults to dark theme */
+ //  body {
+ //    --main-text-color:        #f3f3f3; 
+	// --main-bg-color:          #{$blackberry-low};
+	// --main-midground-color:   #{$blackberry};
+	// --main-highlight-color:   #{$raspberry};
+	// --main-text-light-color:  #{$lemon};
+	// --main-highground-color:  #{$blackberry-high};
+	// --alt-highlight-color:    #{$blackberry};
+ //  }
+ 
 }
+
+.light-mode {
+	--main-text-color:        #2A3035;
+	--main-bg-color:          #f3f3f3;
+	--main-midground-color:   #{$blackberry-low};
+	--main-highground-color:  #{$lemon};
+	--main-highlight-color:   #{$raspberry};
+	--alt-highlight-color:    #{$blackberry}; 
+	--main-text-light-color:  #{$lemon};
+}
+
+.dark-mode {
+	--main-text-color:        #f3f3f3; 
+	--main-bg-color:          #{$blackberry-low};
+	--main-midground-color:   #{$blackberry};
+	--main-highlight-color:   #{$raspberry};
+	--main-text-light-color:  #{$lemon};
+	--main-highground-color:  #{$blackberry-high};
+	--alt-highlight-color:    #{$blackberry};
+}
+
 
 /* --- FONT STACK ---  */
 
 $sans-serif:        "Titillium Web", Helvetica, Arial, sans-serif;
-$serif:             "Titillium Web", Cambria, Times New Roman, Times, serif;
+$extra-bold:		900;
+$bold:				700;
+$regular:			400;
+$light:				300;
 
 
 $tan:               #eceee5;

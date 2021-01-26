@@ -1,13 +1,13 @@
 # Site settings
 title: "Operation Homepage"
-description: "Make your homepage beautiful and clean"
+description: "Get noticed with a one-page website"
 url: "https://operationhomepage.com"
 cover: "/library/cover.png"
 logo: "/library/images/logos/skymse-logo-circle.png"
 username: "@OperationHompage"
 email: "sos@OperationHompage.com"
 location: "Indianapolis, IN • Chattanooga, TN"
-color: "#F99C1C"
+color: "#22205F"
 
 # sass/css minify
 sass:

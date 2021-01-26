@@ -84,27 +84,14 @@ HEADER STYLES
 	max-width: 420px;
 }
 
+.panel-image {
+	grid-row: auto;
+}
+
 .section-back::after {
 	margin-left: 100px;
 	margin-right: 100px;
 }
-
-/*********************
-NAVIGATION STYLES
-*********************/
-
-#inner-header nav {
-	border: 0;
-
-	ul {
-		
-		li {
-			display: inline-block;
-			margin: 0px 15px;
-		} /* end ul li */ 
-	} 
-	
-} /* end .nav */
 
 /*********************
 TEMPLATE OBJECTS

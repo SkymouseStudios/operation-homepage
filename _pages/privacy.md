@@ -16,7 +16,8 @@ This privacy policy provides you with information in terms of articles 19 and 20
 
 ## 1. Data Controller
 
-The data controller of this website is Skymouse Studios whose office is situated at 9028 Woodmoss Ln, Suite 3B Indianapolis, IN 46250
+The data controller of this website is Skymouse Studios whose office is situated at 704 South State Rd 135, Suite D #418, Greenwood, Indiana.
+
 
 ## 2. Information collected and purpose
 
@@ -29,10 +30,22 @@ When you visit our website the following information will automatically be proce
 + The operating system of the machine running your web browser and the type and version of your web browser.
 
 ### COOKIES
-Cookies are small pieces of data that the site transfers to the user’s computer hard drive when the user visits the website. Our website uses only session cookies which are erased when the user closes the Web browser. The session cookie is stored in temporary memory and is not retained after the browser is closed. Session cookies do not collect information from the user’s computer. They will typically store information in the form of a session identification that does not personally identify the user.
+This website uses cookies. We use cookies to personalise content, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+
+Cookies are small text files that can be used by websites to make a user's experience more efficient.
+
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.
+
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.
+
+Your consent applies to the following domains: www.operationhomepage.com and www.skymousestudios.com
 
 ### PERSONAL DATA PROVIDED BY THE DATA SUBJECT
-When using this website’s online facilities, data subjects may be required to provide their personal data for the purposes of email messaging for commercial property interests and availability via our commercial real estate brokers.
+When using this website’s online facilities, data subjects may be required to provide their personal data for the purposes of email messaging.
+
+We use Hotjar in order to better understand our users’ needs and to optimize this service and experience. Hotjar is a technology service that helps us better understand our users’ experience (e.g. how much time they spend on which pages, which links they choose to click, what users do and don’t like, etc.) and this enables us to build and maintain our service with user feedback. Hotjar uses cookies and other technologies to collect data on our users’ behavior and their devices. This includes a device's IP address (processed during your session and stored in a de-identified form), device screen size, device type (unique device identifiers), browser information, geographic location (country only), and the preferred language used to display our website. Hotjar stores this information on our behalf in a pseudonymized user profile. Hotjar is contractually forbidden to sell any of the data collected on our behalf.
+
+For further details, please see the "about Hotjar" section of Hotjar’s support site.
 
 ## 3. Your rights as data subject
 

@@ -42,6 +42,7 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 		<meta property="og:image" content="{{ site.url }}{{ page.img }}" />
+		<meta property="og:author" content="Skymouse Studios" />
 		
 		<script type="application/ld+json">
 			{
@@ -66,7 +67,8 @@
 		<link rel="stylesheet" href="{{ site.url }}/style.css">
 
 		<!-- Parallax -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 
 		<!-- General JS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -76,10 +78,9 @@
 		{% include analyticstracking.html %}
 	</head>
 
-	<body itemscope itemtype="http://schema.org/WebPage" class="{{ page.url | remove: "/" }}">
+	<body itemscope itemtype="http://schema.org/WebPage" class="{{ page.url | remove: "/" }} ">
 		<!-- WhatsApp Image -->
       	<link itemprop="image" href="{{ site.url }}/apple-touch-icon.png"> 
 
 	<div id="container">
-		
 	

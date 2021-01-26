@@ -28,9 +28,9 @@ textarea,
   border-radius: 5px;
   vertical-align: middle;
   box-shadow: none;
-  border: 2px solid var(--main-text-light-color);
-  font-family: $serif;
-  background-color: var(--main-midground-color);
+  border: 2px solid var(--main-midground-color);
+  font-family: $sans-serif;
+  background-color: var(--main-highground-color);
   
   // a focused input (or hovered on)
   &:focus,

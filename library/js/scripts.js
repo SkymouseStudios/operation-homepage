@@ -45,20 +45,7 @@
 })();
 
 /************************************************************
- * Mobile Menu Function
- ************************************************************/
-
-// function mobileMenu() {
-//   	document.getElementById('menu-burger').addEventListener('click',function() {
-//     document.getElementById('mobile-menu').classList.toggle('menu-shown');
-//     document.getElementById('line').classList.toggle('exit');
-// 	});
-// }
-
-// mobileMenu();
-
-/************************************************************
- * EXAMPLE POPUP
+ * Website EXAMPLE POPUP
  ************************************************************/
 
 $(".button").on("click", function() {
@@ -109,3 +96,35 @@ jQuery('a[href*="#"]')
       }
     }
   }); 
+
+/************************************************************
+ * DARK MODE BUTTON
+ ************************************************************/
+
+// Select the button
+const btn = document.querySelector(".btn-toggle");
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+const currentTheme = localStorage.getItem("theme");
+
+// If the user's preference in localStorage is dark...
+if (currentTheme == "dark") {
+    document.body.classList.toggle("dark-mode");
+  } else if (currentTheme == "light") {
+    document.body.classList.toggle("light-mode");
+  }
+ 
+// Listen for a click on the button 
+btn.addEventListener("click", function() {
+  
+  if (prefersDarkScheme.matches) {
+      document.body.classList.toggle("dark-mode");
+      document.body.classList.toggle("light-mode");
+      var theme = document.body.classList.contains("light-mode") ? "light" : "dark";
+    } else {
+      document.body.classList.toggle("light-mode");
+      document.body.classList.toggle("dark-mode");
+      var theme = document.body.classList.contains("dark-mode") ? "dark" : "light";
+    }
+
+  localStorage.setItem("theme", theme);
+});
