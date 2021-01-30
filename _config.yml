@@ -5,7 +5,7 @@ url: "https://operationhomepage.com"
 cover: "/library/cover.png"
 logo: "/library/images/logos/skymse-logo-circle.png"
 username: "@OperationHompage"
-email: "sos@OperationHompage.com"
+email: "sos@skymousestudios.com"
 location: "Indianapolis, IN • Chattanooga, TN"
 color: "#22205F"
 
@@ -19,15 +19,11 @@ plugins:
   - jekyll-sitemap
 
 collections:
-  services:
-    output: true
-    permalink: /:collection/:name
-  casestudies:
-    output: true
-    permalink: /work/:name
   pages:
     output: true
     permalink: /:name
-  downloads:
-    output: true
-    permalink: /downloads/:name
+
+# Fixes a font awesome issue
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"

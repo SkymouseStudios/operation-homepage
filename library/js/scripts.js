@@ -109,7 +109,7 @@ const currentTheme = localStorage.getItem("theme");
 // If the user's preference in localStorage is dark...
 if (currentTheme == "dark") {
     document.body.classList.toggle("dark-mode");
-  } else if (currentTheme == "light") {
+  } else {
     document.body.classList.toggle("light-mode");
   }
  
